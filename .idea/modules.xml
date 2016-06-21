@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/XMVideo/XMVideo.iml" filepath="$PROJECT_DIR$/XMVideo/XMVideo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/xmmj.iml" filepath="$PROJECT_DIR$/xmmj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xmvideo.iml" filepath="$PROJECT_DIR$/xmvideo.iml" />
     </modules>
   </component>
 </project>
