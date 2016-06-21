@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.act_home">
+
+    <include
+        layout="@layout/incd_content_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:id="@+id/rg_homebar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_homebar_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:button="@color/transparent"
+            android:drawablePadding="-4dp"
+            android:drawableTop="@drawable/select_homebar_home"
+            android:gravity="center"
+            android:text="@string/tabhome"
+            android:textColor="@drawable/select_homebar_textcolor"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/rb_homebar_list"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:button="@color/transparent"
+            android:drawablePadding="-4dp"
+            android:drawableTop="@drawable/select_homebar_list"
+            android:gravity="center"
+            android:text="@string/tablist"
+            android:textColor="@drawable/select_homebar_textcolor"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/rb_homebar_local"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:button="@color/transparent"
+            android:drawablePadding="-4dp"
+            android:drawableTop="@drawable/select_homebar_local"
+            android:gravity="center"
+            android:text="@string/tablocal"
+            android:textColor="@drawable/select_homebar_textcolor"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/rb_homebar_setting"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:button="@color/transparent"
+            android:drawablePadding="-4dp"
+            android:drawableTop="@drawable/select_homebar_setting"
+            android:gravity="center"
+            android:text="@string/tabsetting"
+            android:textColor="@drawable/select_homebar_textcolor"
+            android:textSize="12sp" />
+    </RadioGroup>
+
+
+</LinearLayout>

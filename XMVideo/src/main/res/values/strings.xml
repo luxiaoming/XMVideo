@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">XM美剧</string>
+    <string name="title_activity_act__home">XM美剧</string>
+    <string name="pref_dream_text_key">pref_dream_text</string>
+    <string name="pref_dream_text_default">zzzZZZzzz</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tablist">订阅</string>
+    <string name="tabhome">首页</string>
+    <string name="tablocal">本地</string>
+    <string name="tabsetting">我的</string>
+    <string name="buffering">Buffering</string>
+</resources>

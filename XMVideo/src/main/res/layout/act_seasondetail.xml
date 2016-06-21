@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/coll_toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/detail_image_height"
+            android:fitsSystemWindows="true"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleMarginEnd="96dp"
+            app:expandedTitleMarginStart="48dp"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+
+            <ImageView
+                android:id="@+id/detail_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                app:layout_collapseMode="parallax" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:background="@drawable/black_bg" />
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:visibility="gone"
+            app:tabIndicatorColor="@color/black_90"
+            app:tabSelectedTextColor="@color/black_90"
+            app:tabTextColor="@color/white" />
+    </android.support.design.widget.AppBarLayout>
+
+    <com.jude.easyrecyclerview.EasyRecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:scrollbarStyle="insideOverlay" />
+
+</android.support.design.widget.CoordinatorLayout>
