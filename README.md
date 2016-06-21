@@ -14,7 +14,7 @@
 >6,图片使用Glide框架
 
 #程序截图
-![Image of 首页]()
+![Image of 首页](https://github.com/ximencx/xmvideo/blob/master/screenshot/home1.gif)
 
 
 ### 关于我
